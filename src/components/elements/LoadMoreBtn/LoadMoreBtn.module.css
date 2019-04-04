@@ -1,5 +1,5 @@
-.rmdb-loadmorebtn {
-  background: #16d47b;
+.RmdbLoadMoreBtn {
+  background: linear-gradient(#c31432, #240b36);
   width: 100%;
   min-height: 50px;
   text-align: center;
@@ -8,12 +8,12 @@
   transition: all 0.3s;
 }
 
-.rmdb-loadmorebtn p {
+.RmdbLoadMoreBtn p {
   font-family: 'Abel', sans-serif;
-  font-size:42px;
+  font-size: 42px;
   padding: 20px;
 }
 
-.rmdb-loadmorebtn:hover {
+.RmdbLoadMoreBtn:hover {
   opacity: 0.8;
 }

@@ -19,7 +19,7 @@ class SearchBar extends Component {
   render() {
     return (
       <div className={classes.RmdbSearchBar}>
-        <div className={classes.RmdbSearchbarContent}>
+        <div className={classes.RmdbSearchBarContent}>
           <FontAwesome
             className={classes.RmdbFaSearch}
             name='search'
@@ -27,8 +27,8 @@ class SearchBar extends Component {
           />
           <input
             type='text'
-            className={classes.RmdbSearchbarInput}
-            placeholder='search'
+            className={classes.RmdbSearchBarInput}
+            placeholder='search for movies'
             onChange={this.searchHandler}
             value={this.state.value}
           />

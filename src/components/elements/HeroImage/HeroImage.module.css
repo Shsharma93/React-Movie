@@ -50,6 +50,9 @@
   .RmdbHeroImageText {
     max-width: 100%;
   }
+  .RmdbHeroImage {
+    max-width: 100%;
+  }
 
   .RmdbHeroImageText h1 {
     font-size: 38px;

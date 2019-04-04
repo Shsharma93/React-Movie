@@ -1,18 +1,18 @@
 .RmdbSearchBar {
   width: 100%;
   height: 105px;
-  background: #1c1c1c;
+  background: linear-gradient(#c31432, #240b36);
   position: relative;
   padding: 25px 20px 0px 20px;
   box-sizing: border-box;
   color: #fff;
 }
 
-.RmdbSearchbarContent {
+.RmdbSearchBarContent {
   max-width: 1280px;
   width: 100%;
   height: 55px;
-  background: #353535;
+  background: #c31432;
   margin: 0 auto;
   border-radius: 40px;
   position: relative;
@@ -26,24 +26,30 @@
   color: #fff;
 }
 
-.RmdbSearchbarInput {
+.RmdbSearchBarInput {
   font-family: 'Abel', sans-serif;
   font-size: 38px;
   position: absolute;
   left: 70px;
-  top: 7px;
-  border: 0;
+  margin-top: 5px;
+  border: none;
   background: transparent;
   height: 40px;
   color: #fff;
+  width: 93%;
 }
 
-.RmdbSearchbarInput:focus {
+.RmdbSearchBarInput:focus {
   outline: none;
 }
 
+::placeholder {
+  color: #c1c5cc;
+  font-size: 30px;
+}
+
 @media screen and (max-width: 720px) {
-  .rmdb-searchbar-input {
+  .RmdbSearchBarInput {
     font-size: 28px;
     color: #fff;
   }

@@ -3,8 +3,8 @@ import classes from './LoadMoreBtn.module.css';
 
 const loadMoreBtn = props => {
   return (
-    <div>
-      <p>Load More Button</p>
+    <div className={classes.RmdbLoadMoreBtn} onClick={props.click}>
+      <p>{props.text}</p>
     </div>
   );
 };

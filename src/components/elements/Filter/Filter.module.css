@@ -1,0 +1,41 @@
+.Button {
+  background-color: white;
+  color: black;
+  border: 2px solid #c31432;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  outline: none;
+  border-radius: 35px;
+  margin-top: 25px;
+  margin-right: 10px;
+  color: #c31432;
+}
+
+.faBar {
+  margin-right: 10px;
+}
+
+.Button:hover {
+  background-color: #c31432;
+  color: white;
+}
+
+.ButtonDiv {
+  text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+  .Button {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .faBar {
+    margin-right: 5px;
+  }
+}
