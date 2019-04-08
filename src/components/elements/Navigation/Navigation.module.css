@@ -1,7 +1,7 @@
-.rmdb-navigation {
+.RmdbNavigation {
   width: 100%;
   height: 50px;
-  background: #353535;
+  background: #c31432;
   color: #fff;
   position: relative;
   padding: 20px;
@@ -10,14 +10,13 @@
   padding-top: 10px;
 }
 
-.rmdb-navigation-content {
+.RmdbNavigationContent {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 20px;
-
 }
 
-.rmdb-navigation-content p {
+.RmdbNavigationContent p {
   font-family: 'Abel', sans-serif;
   font-size: 22px;
   float: left;

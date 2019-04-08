@@ -1,28 +1,28 @@
-.rmdb-actor {
+.RmdbActor {
   box-sizing: border-box;
 }
 
-.rmdb-actor img {
+.RmdbActor img {
   width: 40%;
   height: auto;
   float: left;
   box-sizing: border-box;
 }
 
-.rmdb-actor-name {
+.RmdbActorName {
   font-family: 'Abel', sans-serif;
   font-size: 22px;
-  color:#fff;
+  color: #fff;
   float: left;
   margin: 10px 20px;
   width: 40%;
   box-sizing: border-box;
 }
 
-.rmdb-actor-character {
+.RmdbActorCharacter {
   font-family: 'Abel', sans-serif;
   font-size: 18px;
-  color:#fff;
+  color: #fff;
   float: left;
   margin: 0 20px 10px 20px;
   width: 40%;

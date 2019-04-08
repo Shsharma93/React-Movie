@@ -1,10 +1,22 @@
 import React from 'react';
 import classes from './MovieThumb.module.css';
+import { Link } from 'react-router-dom';
 
 const movieThumb = props => {
   return (
     <div className={classes.RmdbMovieThumb}>
-      <img src={props.img} alt='moviethumb' />
+      {props.clickable ? (
+        <Link
+          to={{
+            pathname: `/${props.movieId}`,
+            movieName: `${props.movieName}`
+          }}
+        >
+          <img src={props.img} alt='moviethumb' />
+        </Link>
+      ) : (
+        <img src={props.img} alt='moviethumb' />
+      )}
     </div>
   );
 };
